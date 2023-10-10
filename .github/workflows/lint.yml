@@ -10,7 +10,7 @@ on:
       - '*'     # Listen to all branches
 
 env:
-  NODE_VERSION: 16.4.2
+  NODE_VERSION: 16
 
 jobs:
   linting:
