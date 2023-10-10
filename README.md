@@ -28,6 +28,6 @@ If you plan to contribute to or develop on this package, we recommend using Visu
 
 2. [**ESLint**](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint): ESLint is a widely used JavaScript linter that helps identify and fix code errors and enforce code style guidelines.
 
-3.[ **Format Code Action**](https://marketplace.visualstudio.com/items?itemName=rohit-gohri.format-code-action): This extension provides additional code formatting actions to help integrate Prettier with ESLint.
+3. [ **Format Code Action**](https://marketplace.visualstudio.com/items?itemName=rohit-gohri.format-code-action): This extension provides additional code formatting actions to help integrate Prettier with ESLint.
 
 By installing these extensions, you'll have a smoother development experience and ensure that your contributions align with our coding standards.
