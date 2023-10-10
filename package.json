@@ -1,0 +1,35 @@
+{
+  "name": "react-utils",
+  "version": "1.0.0",
+  "description": "React utils functions package",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "utils",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IlhanYapici/react-utils.git"
+  },
+  "author": "Ilhan Yapici",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IlhanYapici/react-utils/issues"
+  },
+  "homepage": "https://github.com/IlhanYapici/react-utils#readme",
+  "devDependencies": {
+    "ts-node": "10.9.1",
+    "tsup": "7.2.0",
+    "typescript": "5.2.2"
+  }
+}
