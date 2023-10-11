@@ -4,7 +4,7 @@ This is a private npm package that provides useful React components and JavaScri
 
 ## Installation
 
-To install this package, you can use **npm** or **yarn**:
+**_NOT PUBLISHED YET!!!_** To install this package, you can use **npm** or **yarn**:
 
 ```bash
 npm install @iya/react-utils
