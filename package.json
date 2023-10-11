@@ -1,45 +1,48 @@
 {
-  "name": "react-utils",
-  "version": "1.0.0",
-  "description": "React utils functions package",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "build": "tsup",
-    "lint": "eslint --ignore-path .eslintignore --ext .js,.ts .",
-    "lint:fix": "eslint --fix --ignore-path .eslintignore --ext .js,.ts .",
-    "prettier": "npx prettier src --check",
-    "prettier:fix": "npm run prettier -- --write",
-    "format": "npm run prettier:fix && npm run lint:fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "react",
-    "utils",
-    "typescript"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/IlhanYapici/react-utils.git"
-  },
-  "author": "Ilhan Yapici",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/IlhanYapici/react-utils/issues"
-  },
-  "homepage": "https://github.com/IlhanYapici/react-utils#readme",
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "6.7.5",
-    "@typescript-eslint/parser": "6.7.5",
-    "eslint": "8.51.0",
-    "eslint-config-prettier": "9.0.0",
-    "prettier": "3.0.3",
-    "ts-node": "10.9.1",
-    "tsup": "7.2.0",
-    "typescript": "5.2.2"
-  }
+	"name": "react-utils",
+	"version": "1.0.0",
+	"description": "React utils functions package",
+	"main": "./dist/index.js",
+	"module": "./dist/index.mjs",
+	"types": "./dist/index.d.ts",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsup",
+		"lint": "node utils/formatted-linting.js",
+		"lint:fix": "node utils/formatted-linting.js --fix",
+		"prettier": "npx prettier src --check",
+		"prettier:fix": "npm run prettier -- --write",
+		"format": "npm run prettier:fix && npm run lint:fix",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"react",
+		"utils",
+		"typescript"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/IlhanYapici/react-utils.git"
+	},
+	"author": "Ilhan Yapici",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/IlhanYapici/react-utils/issues"
+	},
+	"homepage": "https://github.com/IlhanYapici/react-utils#readme",
+	"devDependencies": {
+		"@types/node": "20.8.4",
+		"@typescript-eslint/eslint-plugin": "6.7.5",
+		"@typescript-eslint/parser": "6.7.5",
+		"chalk": "4.1.2",
+		"eslint": "8.51.0",
+		"eslint-config-prettier": "9.0.0",
+		"minimist": "1.2.8",
+		"prettier": "3.0.3",
+		"ts-node": "10.9.1",
+		"tsup": "7.2.0",
+		"typescript": "5.2.2"
+	}
 }
