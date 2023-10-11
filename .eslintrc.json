@@ -23,6 +23,7 @@
 			"error",
 			{ "args": "all", "argsIgnorePattern": "^_" }
 		],
-		"@typescript-eslint/no-require-imports": "error"
+		"@typescript-eslint/no-require-imports": "error",
+		"semi": ["error", "never"]
 	}
 }
