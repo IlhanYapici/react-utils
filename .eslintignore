@@ -2,3 +2,4 @@ node_modules
 .github
 dist
 yarn.lock
+*.js
