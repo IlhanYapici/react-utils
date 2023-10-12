@@ -1,19 +1,19 @@
-# React Utils Package
+# Typescript Utils Package
 
-This is a private npm package that provides useful React components and JavaScript utility functions for your projects, and it is developed with TypeScript, offering type definitions for enhanced development.
+This is a private npm package that provides useful React and JavaScript utility functions for your projects, and it is developed with TypeScript, offering type definitions for enhanced development.
 
 ## Installation
 
 **_NOT PUBLISHED YET!!!_** To install this package, you can use **npm** or **yarn**:
 
 ```bash
-npm install @iya/react-utils
+npm install @iya/ts-utils
 ```
 
 ### or
 
 ```bash
-yarn add @iya/react-utils
+yarn add @iya/ts-utils
 ```
 
 ## TypeScript support
